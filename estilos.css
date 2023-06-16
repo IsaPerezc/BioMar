@@ -1,0 +1,99 @@
+body {
+  background-color: #eaf2f5;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  margin: 0;
+  padding: 20px;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+h1, h2 {
+  background-color: #2c7da0;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 28px;
+  margin: 40px 20px 10px;
+}
+
+nav {
+  background-color: #2c7da0;
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px 0px;
+  margin: 30px 20px 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 5px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 30px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 23px;
+  margin-bottom: 3px;
+}
+
+nav a:hover {
+  background-color: #195e85;
+}
+
+.destacado {
+  font-size: 28px;
+}
+
+.first-image,
+img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  max-width: calc(100% - 40px);
+  height: 490px;
+  object-fit: cover;
+}
+
+#footer-text {
+  text-align: center;
+  margin: 20px
+}
+
+#info-personal {
+  font-style: italic;
+  margin: 20px
+}
+
+#contacto {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  margin: 20px;
+}
+
+#contacto a {
+  color: #2c7da0;
+  text-decoration: none;
+}
+
+#temas .col-sm {
+  display: flex;
+  flex-direction: column;
+  align-items:left;
+
+  
+
+}
